@@ -469,11 +469,11 @@ textarea{
 	#logo{
 		display: none;
 	}
-	#mobile-logo{
-		margin-top: 15px;
-	}
 	#large-title{
 		margin-top: 100px;
+	}
+	#mobile-logo{
+		margin-top: 15px;
 	}
 	.slidbar h4{
 		font-size: 1em;
