@@ -461,8 +461,6 @@ textarea{
 	    background: -o-linear-gradient(rgba(0, 2, 34, .7), rgba(0, 192, 221, .5)); /* For Opera 11.1 to 12.0 */
 	    background: -moz-linear-gradient(rgba(0, 2, 34, .7), rgba(0, 192, 221, .5)); /* For Firefox 3.6 to 15 */
 	    background: linear-gradient(rgba(0, 2, 34, .7), rgba(0, 192, 221, .5)); /* Standard syntax */
-		width: 100%;
-		position: absolute;
 		padding: 20px 15px 10px 15px;
 		display: block;
 	}
@@ -470,7 +468,7 @@ textarea{
 		display: none;
 	}
 	#large-title{
-		margin-top: 100px;
+		margin-top: -50px;
 	}
 	#mobile-logo{
 		margin-top: 15px;
