@@ -462,6 +462,7 @@ textarea{
 	    background: -moz-linear-gradient(rgba(0, 2, 34, .7), rgba(0, 192, 221, .5)); /* For Firefox 3.6 to 15 */
 	    background: linear-gradient(rgba(0, 2, 34, .7), rgba(0, 192, 221, .5)); /* Standard syntax */
 		width: 100%;
+		position: absolute;
 		padding: 20px 15px 10px 15px;
 		display: block;
 	}
@@ -470,6 +471,9 @@ textarea{
 	}
 	#mobile-logo{
 		margin-top: 15px;
+	}
+	#large-title{
+		margin-top: 100px;
 	}
 	.slidbar h4{
 		font-size: 1em;
@@ -482,9 +486,6 @@ textarea{
 	}
 	#middle-brand{
 		margin-top: 15px;
-	}
-	#large-title{
-		padding: -100px;
 	}
 	li{
 		font-size: .9em;
