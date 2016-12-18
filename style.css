@@ -452,9 +452,6 @@ textarea{
 	p, h4, h5, h6{
 		font-size: 1em;
 	}
-	.header{
-		background-image: url(img/boise.jpg);
-	}
 	.slidbar{
 		background: rgba(0, 192, 221, .9); /* For browsers that do not support gradients */
 	    background: -webkit-linear-gradient(rgba(0, 2, 34, .7), rgba(0, 192, 221, .5)); /* For Safari 5.1 to 6.0 */
@@ -463,6 +460,9 @@ textarea{
 	    background: linear-gradient(rgba(0, 2, 34, .7), rgba(0, 192, 221, .5)); /* Standard syntax */
 		padding: 20px 15px 10px 15px;
 		display: block;
+	}
+	.header{
+		background-image: url(img/boise.jpg);
 	}
 	#logo{
 		display: none;
@@ -534,6 +534,11 @@ textarea{
   	}
 }
 
+@media (max-width: 480px) {
+	.header{
+		background-image: url(img/boise.jpg);
+	}
+}
 
 
 
