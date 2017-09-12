@@ -537,6 +537,7 @@ textarea{
 @media (max-width: 480px) {
 	.header{
 		background-image: url(img/boise.jpg);
+		display: block;
 	}
 }
 
